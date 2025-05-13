@@ -6,7 +6,7 @@
 }
 
 header {
-    background-image: url("img/phone.jpg");
+    background-image: url("img/fon.jpg");
     height: 950px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -26,66 +26,97 @@ header {
 
 }
 
-.cookieCard {
+.infa {
+    justify-content: flex-end;
+}
+
+.card {
     width: 300px;
     height: 200px;
-    background: linear-gradient(to right, rgb(137, 104, 255), rgb(175, 152, 255));
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    gap: 20px;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    border-radius: 8px;
+    color: white;
+    overflow: hidden;
+    position: relative;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+    cursor: pointer;
+}
+
+.card-content {
     padding: 20px;
     position: relative;
-    overflow: hidden;
-}
-
-.cookieCard::before {
-    width: 150px;
-    height: 150px;
-    content: "";
-    background: linear-gradient(to right, rgb(142, 110, 255), rgb(208, 195, 255));
-    position: absolute;
     z-index: 1;
-    border-radius: 50%;
-    right: -25%;
-    top: -25%;
-}
-
-.cookieHeading {
-    font-size: 1.5em;
-    font-weight: 600;
-    color: rgb(241, 241, 241);
-    z-index: 2;
-}
-
-.cookieDescription {
-    font-size: 0.9em;
-    color: rgb(241, 241, 241);
-    z-index: 2;
-}
-
-.cookieDescription a {
-    color: rgb(241, 241, 241);
-}
-
-.acceptButton {
-    padding: 11px 20px;
-    background-color: #7b57ff;
-    transition-duration: .2s;
-    border: none;
-    color: rgb(241, 241, 241);
-    cursor: pointer;
-    font-weight: 600;
-    z-index: 2;
-}
-
-.acceptButton:hover {
-    background-color: #714aff;
-    transition-duration: .2s;
-}
-
-.infa {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+    align-items: center;
+    justify-content: center;
     text-align: center;
-    align-items: flex-end;
+    height: 100%;
+}
+
+.card-content .card-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: inherit;
+    text-transform: uppercase;
+}
+
+.card-content .card-para {
+    color: inherit;
+    opacity: 0.8;
+    font-size: 14px;
+}
+
+.card:hover {
+    transform: rotateY(10deg) rotateX(10deg) scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.1));
+    transition: transform 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+    z-index: 1;
+}
+
+.card:hover:before {
+    transform: translateX(-100%);
+}
+
+.card:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.1));
+    transition: transform 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+    z-index: 1;
+}
+
+.card:hover:after {
+    transform: translateX(100%);
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
 }
