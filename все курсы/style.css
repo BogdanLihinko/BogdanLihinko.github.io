@@ -1,0 +1,50 @@
+.curs-conteiner {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 3%;
+}
+
+.cursi {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 3%;
+}
+
+.cnopka {
+    height: 50px;
+    width: 150px;
+}
+
+.roboto {
+    display: flex;
+    height: 50px;
+    width: 50px;
+}
+
+.skretch {
+    display: flex;
+    height: 50px;
+    width: 50px;
+}
+
+.grafika {
+    display: flex;
+    height: 50px;
+    width: 50px;
+}
+
+.model {
+    display: flex;
+    height: 50px;
+    width: 50px;
+}
+
+.photo {
+    display: flex;
+    height: 50px;
+    width: 50px;
+}

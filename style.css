@@ -369,9 +369,10 @@ button:hover {
     margin-top: 2%;
 }
 
-.opis {
+.zapis {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    margin-top: 2%;
 }
 
 * {
@@ -382,7 +383,7 @@ button:hover {
     color: black;
 }
 
-.iconca {
+.program {
     display: flex;
     height: 50px;
     width: 50px;
@@ -407,5 +408,34 @@ button:hover {
 .cnopka {
     height: 50px;
     width: 150px;
-    
+}
+
+.roboto {
+    display: flex;
+    height: 50px;
+    width: 50px;
+}
+
+.skretch {
+    display: flex;
+    height: 50px;
+    width: 50px;
+}
+
+.grafika {
+    display: flex;
+    height: 50px;
+    width: 50px;
+}
+
+.model {
+    display: flex;
+    height: 50px;
+    width: 50px;
+}
+
+.photo {
+    display: flex;
+    height: 50px;
+    width: 50px;
 }
