@@ -26,7 +26,6 @@ body {
 }
 
 .infa {
-    justify-content: flex-end;
     color: white;
 }
 
@@ -274,11 +273,6 @@ button:hover {
     filter: blur(20px);
 }
 
-.heading {
-    font-size: 20px;
-    text-transform: capitalize;
-    font-weight: 700;
-}
 
 .card1 p:not(.heading) {
     font-size: 14px;
@@ -298,9 +292,9 @@ button:hover {
 }
 
 .card1 {
-margin: 0 auto;
-margin-top:1%;
-color: aliceblue;
+    margin: 0 auto;
+    margin-top: 1%;
+    color: aliceblue;
 }
 
 .logo>a {
@@ -327,6 +321,7 @@ color: aliceblue;
 .title {
     font-weight: bold;
     font-size: 1.6rem;
+    color: #000;
 }
 
 .subtitle {
@@ -353,24 +348,6 @@ color: aliceblue;
     padding: 8px 15px;
 }
 
-.form-section {
-    padding: 16px;
-    font-size: .85rem;
-    background-color: #e0ecfb;
-    box-shadow: rgb(0 0 0 / 8%) 0 -1px;
-}
-
-.form-section a {
-    font-weight: bold;
-    color: #0066ff;
-    transition: color .3s ease;
-}
-
-.form-section a:hover {
-    color: #005ce6;
-    text-decoration: underline;
-}
-
 .form button {
     background-color: #0066ff;
     color: #fff;
@@ -387,6 +364,48 @@ color: aliceblue;
     background-color: #005ce6;
 }
 
-.login {
- margin: 0 auto;
+.form-box {
+    margin: 0 auto;
+    margin-top: 2%;
+}
+
+.opis {
+    display: flex;
+    flex-direction: column;
+}
+
+* {
+    color: #eee;
+}
+
+.input {
+    color: black;
+}
+
+.iconca {
+    display: flex;
+    height: 50px;
+    width: 50px;
+}
+
+.curs-conteiner {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 3%;
+}
+
+.cursi {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 3%;
+}
+
+.cnopka {
+    height: 50px;
+    width: 150px;
+    
 }
