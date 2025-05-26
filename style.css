@@ -405,9 +405,10 @@ button:hover {
     margin-top: 3%;
 }
 
-.cnopka {
-    height: 50px;
-    width: 150px;
+.zapis {
+    display: flex;
+    text-align: center;
+
 }
 
 .roboto {
@@ -436,6 +437,28 @@ button:hover {
 
 .photo {
     display: flex;
-    height: 50px;
-    width: 50px;
+    height: 100px;
+    width: 100px;
+}
+
+.opis {
+    text-align: center;
+
+}
+
+
+iframe {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 3%;
+}
+
+.nazv {
+    text-align: center;
+}
+
+.cnopka {
+
+    justify-content: center;
+    margin-top: 1%;
 }
