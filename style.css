@@ -26,7 +26,9 @@ body {
 }
 
 .infa {
-    color: white;
+    background-color: #272626;
+    text-align: center;
+    margin-top: 2%;
 }
 
 .card {
@@ -385,8 +387,9 @@ button:hover {
 
 .program {
     display: flex;
-    height: 50px;
-    width: 50px;
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
 }
 
 .curs-conteiner {
@@ -411,35 +414,7 @@ button:hover {
 
 }
 
-.roboto {
-    display: flex;
-    height: 50px;
-    width: 50px;
-}
 
-.skretch {
-    display: flex;
-    height: 50px;
-    width: 50px;
-}
-
-.grafika {
-    display: flex;
-    height: 50px;
-    width: 50px;
-}
-
-.model {
-    display: flex;
-    height: 50px;
-    width: 50px;
-}
-
-.photo {
-    display: flex;
-    height: 100px;
-    width: 100px;
-}
 
 .opis {
     text-align: center;
@@ -458,7 +433,7 @@ iframe {
 }
 
 .cnopka {
-
+    display: flex;
     justify-content: center;
     margin-top: 1%;
 }
